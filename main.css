@@ -1,0 +1,52 @@
+body {
+  background-color: GhostWhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:70px;
+}
+
+h1 {
+  font-family:serif;
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+#zefyrus {
+border-style: outset;
+}
+
+.inputSection {
+  margin: 50px 50px 50px 50px;
+  width: 200px;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.inputs {
+  width:inherit;
+  display:flex;
+  flex-direction:column;
+}
+
+.addOption {
+  margin-top: 10px;
+}
+
+button {
+  font-family:"Georgia", serif;
+  background-color: #b3ffff;
+  border-radius: 15px;
+  padding: 8px 8px;
+  border: none;
+  box-shadow: 0 4px #999;
+}
+button:active{
+  background-color: #66ffcc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
