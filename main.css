@@ -37,6 +37,14 @@ input {
   margin-top: 10px;
 }
 
+.resultSection{
+  height: 300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
 button {
   font-family:"Georgia", serif;
   background-color: #b3ffff;
